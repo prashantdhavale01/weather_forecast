@@ -1,11 +1,10 @@
 $(document).ready(function() {
 
-  $("#citySelect").change(function(e) {
+  $("#citySelect").on('click', (e) => {
     $("#citySelect").removeClass('emptyField');
   });
 
-
-  $("#submit").click(function(e) {
+  $("#submit").on('click', (e) => {
     $(".map-div").children().remove();
     if (!isValidate()) {
       $("img").removeClass('hidden');      
@@ -39,6 +38,7 @@ $(document).ready(function() {
       });
     }
   });   
+
   function isValidate() {
     var isValid = true;     
     if ($("#citySelect").val().trim() == 'Select') 
@@ -51,4 +51,5 @@ $(document).ready(function() {
     }
     return isValid;
   }
+  
 });
