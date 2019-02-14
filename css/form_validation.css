@@ -44,3 +44,9 @@ body{
     margin-left: 0;
     margin-right: 0;
 }
+.emptyField{
+    border: 1px solid red !important;
+}
+.alert-red{
+    color: red;
+}
