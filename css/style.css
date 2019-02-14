@@ -1,0 +1,18 @@
+.width-150px{
+	width: 150px !important;
+	display: inline !important;
+}	
+.emptyField{
+	border: solid 1px red !important;
+}
+table{
+	width: 50% !important;
+}
+.td-city,
+.td-country,
+.td-date{
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	background-color:darkgrey;
+	font-weight: bold;
+}
