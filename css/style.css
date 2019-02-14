@@ -5,6 +5,9 @@
 .emptyField{
 	border: solid 1px red !important;
 }
+.hidden{
+display: none;
+}
 table{
 	width: 50% !important;
 }
