@@ -22,5 +22,12 @@ Things you may want to cover in the readme:
   2. Bootstrap
  
 # How to configure local domains - 
- 
+
 After this, start http-server/live-server and navigate to `http://127.0.0.1:8080` to access the index page.
+http://127.0.0.1:8080
+http://127.0.0.1:8080/form_validation.html
+
+JQuery-> jquery-3.3.1
+Bootstrap -> bootstrap-4.3.1
+
+(Use tab spacing -> 2)
