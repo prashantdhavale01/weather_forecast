@@ -1,0 +1,111 @@
+<html>
+
+<head>
+    <title>Welcome</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        .emptyField{
+		border-color: red}
+	</style>
+</head>
+
+<body style="text-align: center;">
+    <div>
+        <select name="" id="bindList">
+            <option value="Select Country">Select Country</option>
+        </select>
+    </div>
+    <br><br><br>
+    <div>
+        <input type="number" id="firstValue">
+        <input type="number" id="lastValue">
+        <button id="addValue">Add</button>
+        <div class="dataAppend"></div>
+    </div>
+    <br><br><br>
+    <div class="container">
+        <table class="table">
+            <thead>
+                <th>Sr No</th>
+                <th>Plot Name</th>
+                <th>First Value</th>
+                <th>Last Value</th>
+                <th>Delete</th>
+            </thead>
+            <tbody id="appendRow">
+                <tr id="emptyRow">
+                    <td colspan="5" style="text-align: center;">No Records Found</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script>
+    $(document).ready(function() {
+        var inputArray = ['#firstValue', '#lastValue'];
+        $(document).on('click', '#addValue', function(event) {
+            var rowCount = $('.dynamic-row').length;
+            var first = $('#firstValue').val();
+            var last = $('#lastValue').val();
+
+            var lastValueInt = parseInt($('.lastValue_' + rowCount).text());
+            var gapValue = parseInt(last) - parseInt(first);
+            console.log(isNaN(lastValueInt));
+            console.log(gapValue);
+
+            if (isValidate(inputArray)) {
+                $("#appendRow").append('<tr class="dynamic-row delete-row-' + (rowCount + 1) + '"><td>' + (rowCount + 1) + '</td><td>Shaurya Technosoft</td><td>' + (isNaN(lastValueInt) ? first : lastValueInt + 1) + '</td><td class="lastValue_' + (rowCount + 1) + '">' + (isNaN(lastValueInt) ? last : lastValueInt + gapValue) + '</td><td><span class="glyphicon glyphicon-trash" onclick="deleteRow(this, ' + (rowCount + 1) + ')"></span></td></tr>');
+                $('#firstValue').val('');
+                $('#lastValue').val('');
+            }
+        });
+
+        $.ajax({
+                url: 'https://restcountries.eu/rest/v2/all',
+                type: 'GET',
+                dataType: 'json',
+            })
+            .done(function(data) {
+                console.log("success");
+                console.log(data[10]);
+                $.each(data, function(index, el) {
+                    $("#bindList").append("<option value=" + 'el.name' + ">" + el.name + "</option>");
+                });
+            })
+            .fail(function() {
+                console.log("error");
+            })
+            .always(function() {
+                console.log("complete");
+            });
+
+    });
+
+    function deleteRow(e, num) {
+        console.log(e);
+        console.log(num);
+        //('delete-row-'+num)
+        console.log($(e).parents().find('tr.dynamic-row.delete-row-' + num));
+        $(e).parents().find('tr.dynamic-row.delete-row-' + num).remove();
+    }
+
+    function isValidate(inputArray) {
+        var isValid = true;
+        for (let field of inputArray) {
+            if ($(field).val().trim().length === 0) {
+                $(field).addClass('emptyField');
+                $(field).on('input', () => {
+                    $(field).removeClass('emptyField');
+                });
+                isValid = false;
+            }
+        }
+        return isValid;
+    }
+    </script>
+</body>
+
+</html>
