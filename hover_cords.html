@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cleverex Technology</title>
+</head>
+
+<body>
+    <!-- created image coordinates form this site => http://www.image-map.net/ -->
+    <img src="images/image001.png" usemap="#image-map" alt="image">
+    <map name="image-map">
+        <area alt="101" title="101" id="101" coords="80,121,56,157,75,182,111,206,140,216,153,150,178,94,159,82,140,65,109,92" shape="poly">
+        <area alt="102" title="102" id="102" coords="158,174,151,220,197,231,251,230,287,219,276,154,251,92,216,95,189,91,173,127" shape="poly">
+        <area alt="103" title="103" id="103" coords="300,64,346,104,383,158,352,188,301,216,289,158,260,94,277,82,288,67" shape="poly">
+        <area alt="201" title="201" id="201" coords="38,187,90,228,134,247,135,328,123,339,54,311,32,277,29,258,38,251,16,229,15,206" shape="poly">
+        <area alt="202" title="202" id="202" coords="149,245,217,250,290,244,293,303,282,351,230,359,185,356,152,348,145,299" shape="poly">
+        <area alt="203" title="203" id="203" coords="302,249,342,229,382,202,399,184,419,204,422,228,402,247,411,263,402,284,382,311,311,339,303,332,303,296" shape="poly">
+        <area alt="Stage" title="Stage" id="Stage" coords="154,18,155,52,169,53,172,62,193,72,205,77,234,77,254,68,268,59,270,52,283,53,283,18" shape="poly">
+    </map>
+    <!-- use downloaded jquery.js -->
+    <script src='js/jquery-1.8.3.min.js'></script>
+    <!-- use downloaded maphilight.js for highlight area coordinates part -->
+    <script type="text/javascript" src="js/maphilight.js"></script>
+    <script>
+    $(document).ready(function($) {
+        $('img[usemap]').maphilight()
+        var dummy = ['101', '102', '103', '201', '202', '203', 'Stage'];
+        //console.log(dummy);
+        $.each(dummy, function(index, value) {
+            $('#' + value).on("click", function() {
+                console.log('Clicked on => ' + value);
+                alert('Clicked on => ' + value);
+            });
+        });
+    });
+    </script>
+</body>
+
+</html>
