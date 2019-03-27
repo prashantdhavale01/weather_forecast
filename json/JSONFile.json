@@ -1,0 +1,510 @@
+{
+  "Member": [
+    {
+      "Id": 348,
+      "Name": "Bharati8888 Ram Dudhe",
+      "TableId": 1,
+      "MemberAddress": "pune",
+      "Area": "",
+      "Gender": 2,
+      "MobileNo1": "8888695668",
+      "IsWhatsApp1": false,
+      "EmailId": "hr.shauryatechnosoftpune@gmail.com",
+      "MemberSince": "01/02/2019",
+      "ProfilePhoto": "http://mahamea.erpguru.in/Images/prof_pic1.png",
+      "PersonalDetails": "",
+      "StateId": 1,
+      "StateName": "Maharashtra",
+      "DistrictId": 12,
+      "DistrictName": "Hingoli",
+      "CityId": 25613,
+      "CityName": "",
+      "ReferedBy": 352,
+      "ReferedByName": "A S P",
+      "CenterId": 0,
+      "CenterName": "",
+      "MemberShipTypeId": 5,
+      "MemberShipType": "Member"
+    }
+  ],
+  "Org": [
+    {
+      "MemberId": 348,
+      "MemberName": "Bharati8888 Ram Dudhe",
+      "OrganizationId": 392,
+      "OrganizationName": "Free Bird's Software Pvt .Lmt",
+      "OrganizationAddress": "near city pride opposite to hotel.utsav and panchami Satara Road Pune pin 444203",
+      "Title": "",
+      "OrganizationLogo": "http://mahamea.erpguru.in/http://mahamea.erpguru.in/http://mahamea.erpguru.in/http://mahamea.erpguru.in/http://mahameaservice.erpguru.in/Images/ORG_LOGOIMG-20190304-WA0003.jpg",
+      "PhoneNo": "12345678910",
+      "EmailId": "freewild@gmail.com",
+      "Website": "www.mahamining.com"
+    },
+    {
+      "MemberId": 348,
+      "MemberName": "Bharati8888 Ram Dudhe",
+      "OrganizationId": 408,
+      "OrganizationName": "Bharat Petroleum Private Limited",
+      "OrganizationAddress": "Krushnai Plaza Near Jj Hospital Kothrud",
+      "Title": "",
+      "OrganizationLogo": "",
+      "PhoneNo": "0000000002",
+      "EmailId": "bharatpetroleum@gmail.con",
+      "Website": "bharat.com"
+    },
+    {
+      "MemberId": 348,
+      "MemberName": "Bharati8888 Ram Dudhe",
+      "OrganizationId": 411,
+      "OrganizationName": "Angels Pvt Lmt",
+      "OrganizationAddress": "Pune",
+      "Title": "",
+      "OrganizationLogo": "http://mahamea.erpguru.in/http://mahamea.erpguru.in/",
+      "PhoneNo": "8888888888",
+      "EmailId": "angel@gmail.com",
+      "Website": "www.frontpage.in"
+    },
+    {
+      "MemberId": 348,
+      "MemberName": "Bharati8888 Ram Dudhe",
+      "OrganizationId": 567,
+      "OrganizationName": "Organization",
+      "OrganizationAddress": "Satara road near.city pride pune",
+      "Title": "",
+      "OrganizationLogo": "",
+      "PhoneNo": "02024261344",
+      "EmailId": "ajaypunde90@gmail.com",
+      "Website": ""
+    },
+    {
+      "MemberId": 348,
+      "MemberName": "Bharati8888 Ram Dudhe",
+      "OrganizationId": 568,
+      "OrganizationName": "New One Org",
+      "OrganizationAddress": "Pune",
+      "Title": "",
+      "OrganizationLogo": "Uploads/Committee/file20190302115158191.jpg",
+      "PhoneNo": "7499551536",
+      "EmailId": "Shraddhatekale07@gmail.com",
+      "Website": ""
+    },
+    {
+      "MemberId": 348,
+      "MemberName": "Bharati8888 Ram Dudhe",
+      "OrganizationId": 574,
+      "OrganizationName": "Organization2",
+      "OrganizationAddress": "Time As A Result Of The",
+      "Title": "",
+      "OrganizationLogo": "http://mahameaservice.erpguru.in/Images/ORG_LOGO9236911941551778235329.jpg",
+      "PhoneNo": "03204644640",
+      "EmailId": "ajay@gmail.com",
+      "Website": ""
+    }
+  ],
+  "Product_Project": [
+    {
+      "Product_ProjectId": 90,
+      "OrganizationId": 392,
+      "Type": 1,
+      "Product_ProjectName": "Change Ideas",
+      "ShortName": "CI",
+      "Description": "His wife and java nu sonna enna da bomb and java de la Jolla java de France and java ni kr rhe the besti ho gya tha ki baat nhi hai na to the same time as well as well as some of my life is so much fun with your friends are you doing for you and your friends are the only one that is all you need is love you so much more than you can do for you and your friends are you going on with it is Love this song and java nu sonna enna pandra mari sathe kotha bolte hai to the same time to get the same thing that you are not alone and java will not be with me and we will be with we will not be able to get the same way with the same thing as a whole world with we will not work with we were all the way w my way we will win win a free with we will win win win win win win wwtwtwttetw"
+    },
+    {
+      "Product_ProjectId": 96,
+      "OrganizationId": 392,
+      "Type": 1,
+      "Product_ProjectName": "Demo Producttt",
+      "ShortName": "Dpp",
+      "Description": "This year has been on the wall wtf was two Wt was a very welcome back the best way of"
+    },
+    {
+      "Product_ProjectId": 97,
+      "OrganizationId": 392,
+      "Type": 2,
+      "Product_ProjectName": "Demo Project",
+      "ShortName": "Dp",
+      "Description": "But it is so beautiful and talented people who have been so long ago and the best for you"
+    },
+    {
+      "Product_ProjectId": 98,
+      "OrganizationId": 392,
+      "Type": 2,
+      "Product_ProjectName": "Project 2",
+      "ShortName": "P2",
+      "Description": "This week is a very special to me that he was a good time to get the best way to go to go to go to go to go to go to go to go to go"
+    },
+    {
+      "Product_ProjectId": 169,
+      "OrganizationId": 392,
+      "Type": 1,
+      "Product_ProjectName": "Product as per demand",
+      "ShortName": "Pasd",
+      "Description": "This is demo"
+    },
+    {
+      "Product_ProjectId": 171,
+      "OrganizationId": 411,
+      "Type": 1,
+      "Product_ProjectName": "Angels",
+      "ShortName": "Ang",
+      "Description": "This is demo"
+    },
+    {
+      "Product_ProjectId": 244,
+      "OrganizationId": 392,
+      "Type": 1,
+      "Product_ProjectName": "New Pro",
+      "ShortName": "Gzk",
+      "Description": "Bzn"
+    },
+    {
+      "Product_ProjectId": 264,
+      "OrganizationId": 568,
+      "Type": 1,
+      "Product_ProjectName": "Test Product 11",
+      "ShortName": "Test",
+      "Description": "Testing"
+    },
+    {
+      "Product_ProjectId": 265,
+      "OrganizationId": 567,
+      "Type": 1,
+      "Product_ProjectName": "test for Nd",
+      "ShortName": "Nd",
+      "Description": "Hi there any other "
+    },
+    {
+      "Product_ProjectId": 266,
+      "OrganizationId": 574,
+      "Type": 1,
+      "Product_ProjectName": "Product 124",
+      "ShortName": "Pro12",
+      "Description": "Describe the same time as a result of the same time as a result of the same time to get a chance to get"
+    },
+    {
+      "Product_ProjectId": 272,
+      "OrganizationId": 574,
+      "Type": 1,
+      "Product_ProjectName": "Project 2",
+      "ShortName": "Pro2",
+      "Description": "Describe the same time as a result of the same time as a result of the same time as a result of the ok test"
+    }
+  ],
+  "Product_ProjectDocuments": [
+    {
+      "Id": 377,
+      "Product_ProjectId": 98,
+      "ImageName": "",
+      "Path": "",
+      "IsTitle": false,
+      "Lat": 18.5204303,
+      "Long": 73.8567437,
+      "Radius": 0
+    },
+    {
+      "Id": 378,
+      "Product_ProjectId": 98,
+      "ImageName": "",
+      "Path": "",
+      "IsTitle": false,
+      "Lat": 18.4918125,
+      "Long": 73.862285156,
+      "Radius": 0
+    },
+    {
+      "Id": 379,
+      "Product_ProjectId": 98,
+      "ImageName": "",
+      "Path": "",
+      "IsTitle": false,
+      "Lat": 18.4917625,
+      "Long": 73.860644531,
+      "Radius": 0
+    },
+    {
+      "Id": 392,
+      "Product_ProjectId": 90,
+      "ImageName": "PRD_IMGimages (17).jpeg",
+      "Path": "http://mahameaservice.erpguru.in/Images/PRD_IMGimages (17).jpeg",
+      "IsTitle": false,
+      "Lat": 0,
+      "Long": 0,
+      "Radius": 0
+    },
+    {
+      "Id": 393,
+      "Product_ProjectId": 90,
+      "ImageName": "PRD_IMGimagesvyyvyvuvuvih.jpeg",
+      "Path": "http://mahameaservice.erpguru.in/Images/PRD_IMGimagesvyyvyvuvuvih.jpeg",
+      "IsTitle": false,
+      "Lat": 0,
+      "Long": 0,
+      "Radius": 0
+    },
+    {
+      "Id": 394,
+      "Product_ProjectId": 90,
+      "ImageName": "PRD_IMGimagtxtfyg.jpeg",
+      "Path": "http://mahameaservice.erpguru.in/Images/PRD_IMGimagtxtfyg.jpeg",
+      "IsTitle": false,
+      "Lat": 0,
+      "Long": 0,
+      "Radius": 0
+    },
+    {
+      "Id": 395,
+      "Product_ProjectId": 90,
+      "ImageName": "PRD_IMGimagesyfufyvu.jpeg",
+      "Path": "http://mahameaservice.erpguru.in/Images/PRD_IMGimagesyfufyvu.jpeg",
+      "IsTitle": false,
+      "Lat": 0,
+      "Long": 0,
+      "Radius": 0
+    },
+    {
+      "Id": 583,
+      "Product_ProjectId": 97,
+      "ImageName": "",
+      "Path": "",
+      "IsTitle": false,
+      "Lat": 18.5204303,
+      "Long": 73.8567437,
+      "Radius": 0
+    },
+    {
+      "Id": 584,
+      "Product_ProjectId": 97,
+      "ImageName": "",
+      "Path": "",
+      "IsTitle": false,
+      "Lat": 18.4918125,
+      "Long": 73.862285156,
+      "Radius": 0
+    }
+  ],
+  "OrgSecSubsec": [
+    {
+      "Id": 7143,
+      "OrganizationId": 408,
+      "Sectorid": 8,
+      "sectorName": "IT(InformationTechnology)",
+      "SectorLogo": "http://mahamea.erpguru.in/Uploads/Web/information200x200.png",
+      "subsectorid": 20,
+      "SubsectorName": "Software Development"
+    },
+    {
+      "Id": 7144,
+      "OrganizationId": 408,
+      "Sectorid": 8,
+      "sectorName": "IT(InformationTechnology)",
+      "SectorLogo": "http://mahamea.erpguru.in/Uploads/Web/information200x200.png",
+      "subsectorid": 21,
+      "SubsectorName": "Computer Hardware"
+    },
+    {
+      "Id": 7145,
+      "OrganizationId": 408,
+      "Sectorid": 8,
+      "sectorName": "IT(InformationTechnology)",
+      "SectorLogo": "http://mahamea.erpguru.in/Uploads/Web/information200x200.png",
+      "subsectorid": 22,
+      "SubsectorName": "Networking Services"
+    },
+    {
+      "Id": 7146,
+      "OrganizationId": 408,
+      "Sectorid": 8,
+      "sectorName": "IT(InformationTechnology)",
+      "SectorLogo": "http://mahamea.erpguru.in/Uploads/Web/information200x200.png",
+      "subsectorid": 23,
+      "SubsectorName": "Embeded Technology"
+    },
+    {
+      "Id": 7147,
+      "OrganizationId": 408,
+      "Sectorid": 8,
+      "sectorName": "IT(InformationTechnology)",
+      "SectorLogo": "http://mahamea.erpguru.in/Uploads/Web/information200x200.png",
+      "subsectorid": 24,
+      "SubsectorName": "Mobile Applications"
+    },
+    {
+      "Id": 7450,
+      "OrganizationId": 567,
+      "Sectorid": 12,
+      "sectorName": "Insurance",
+      "SectorLogo": "http://mahamea.erpguru.in/Uploads/Web/insurance200x200.png",
+      "subsectorid": 41,
+      "SubsectorName": "Car Insurance"
+    },
+    {
+      "Id": 7451,
+      "OrganizationId": 567,
+      "Sectorid": 12,
+      "sectorName": "Insurance",
+      "SectorLogo": "http://mahamea.erpguru.in/Uploads/Web/insurance200x200.png",
+      "subsectorid": 42,
+      "SubsectorName": "Individual Insurance"
+    },
+    {
+      "Id": 7557,
+      "OrganizationId": 568,
+      "Sectorid": 8,
+      "sectorName": "IT(InformationTechnology)",
+      "SectorLogo": "http://mahamea.erpguru.in/Uploads/Web/information200x200.png",
+      "subsectorid": 20,
+      "SubsectorName": "Software Development"
+    },
+    {
+      "Id": 7558,
+      "OrganizationId": 568,
+      "Sectorid": 8,
+      "sectorName": "IT(InformationTechnology)",
+      "SectorLogo": "http://mahamea.erpguru.in/Uploads/Web/information200x200.png",
+      "subsectorid": 21,
+      "SubsectorName": "Computer Hardware"
+    },
+    {
+      "Id": 7559,
+      "OrganizationId": 568,
+      "Sectorid": 8,
+      "sectorName": "IT(InformationTechnology)",
+      "SectorLogo": "http://mahamea.erpguru.in/Uploads/Web/information200x200.png",
+      "subsectorid": 22,
+      "SubsectorName": "Networking Services"
+    },
+    {
+      "Id": 7560,
+      "OrganizationId": 568,
+      "Sectorid": 8,
+      "sectorName": "IT(InformationTechnology)",
+      "SectorLogo": "http://mahamea.erpguru.in/Uploads/Web/information200x200.png",
+      "subsectorid": 23,
+      "SubsectorName": "Embeded Technology"
+    },
+    {
+      "Id": 7561,
+      "OrganizationId": 568,
+      "Sectorid": 8,
+      "sectorName": "IT(InformationTechnology)",
+      "SectorLogo": "http://mahamea.erpguru.in/Uploads/Web/information200x200.png",
+      "subsectorid": 24,
+      "SubsectorName": "Mobile Applications"
+    },
+    {
+      "Id": 7650,
+      "OrganizationId": 411,
+      "Sectorid": 8,
+      "sectorName": "IT(InformationTechnology)",
+      "SectorLogo": "http://mahamea.erpguru.in/Uploads/Web/information200x200.png",
+      "subsectorid": 20,
+      "SubsectorName": "Software Development"
+    },
+    {
+      "Id": 7651,
+      "OrganizationId": 411,
+      "Sectorid": 8,
+      "sectorName": "IT(InformationTechnology)",
+      "SectorLogo": "http://mahamea.erpguru.in/Uploads/Web/information200x200.png",
+      "subsectorid": 21,
+      "SubsectorName": "Computer Hardware"
+    },
+    {
+      "Id": 7652,
+      "OrganizationId": 411,
+      "Sectorid": 8,
+      "sectorName": "IT(InformationTechnology)",
+      "SectorLogo": "http://mahamea.erpguru.in/Uploads/Web/information200x200.png",
+      "subsectorid": 22,
+      "SubsectorName": "Networking Services"
+    },
+    {
+      "Id": 7653,
+      "OrganizationId": 411,
+      "Sectorid": 8,
+      "sectorName": "IT(InformationTechnology)",
+      "SectorLogo": "http://mahamea.erpguru.in/Uploads/Web/information200x200.png",
+      "subsectorid": 23,
+      "SubsectorName": "Embeded Technology"
+    },
+    {
+      "Id": 7654,
+      "OrganizationId": 411,
+      "Sectorid": 8,
+      "sectorName": "IT(InformationTechnology)",
+      "SectorLogo": "http://mahamea.erpguru.in/Uploads/Web/information200x200.png",
+      "subsectorid": 24,
+      "SubsectorName": "Mobile Applications"
+    },
+    {
+      "Id": 7677,
+      "OrganizationId": 574,
+      "Sectorid": 17,
+      "sectorName": "Dairy",
+      "SectorLogo": "http://mahamea.erpguru.in/Uploads/Web/dairy200x200.png",
+      "subsectorid": 55,
+      "SubsectorName": "Milk And Milk Products"
+    },
+    {
+      "Id": 7684,
+      "OrganizationId": 392,
+      "Sectorid": 16,
+      "sectorName": "Ads And Media",
+      "SectorLogo": "http://mahamea.erpguru.in/Uploads/Web/adsmedia.png",
+      "subsectorid": 50,
+      "SubsectorName": "Ads And Media"
+    }
+  ],
+  "OrgPartners": [
+    {
+      "OrganizationPartnersId": 389,
+      "OrganizationId": 567,
+      "PartnerId": 361,
+      "PartnerName": "Dudhe Bharti"
+    },
+    {
+      "OrganizationPartnersId": 390,
+      "OrganizationId": 567,
+      "PartnerId": 679,
+      "PartnerName": "punde mangesh"
+    },
+    {
+      "OrganizationPartnersId": 391,
+      "OrganizationId": 567,
+      "PartnerId": 348,
+      "PartnerName": "Dudhe Bharati8888"
+    },
+    {
+      "OrganizationPartnersId": 481,
+      "OrganizationId": 568,
+      "PartnerId": 348,
+      "PartnerName": "Dudhe Bharati8888"
+    },
+    {
+      "OrganizationPartnersId": 482,
+      "OrganizationId": 568,
+      "PartnerId": 627,
+      "PartnerName": "Chavan Sujata"
+    },
+    {
+      "OrganizationPartnersId": 506,
+      "OrganizationId": 411,
+      "PartnerId": 346,
+      "PartnerName": "Pawar Amol "
+    },
+    {
+      "OrganizationPartnersId": 519,
+      "OrganizationId": 574,
+      "PartnerId": 348,
+      "PartnerName": "Dudhe Bharati8888"
+    },
+    {
+      "OrganizationPartnersId": 523,
+      "OrganizationId": 392,
+      "PartnerId": 352,
+      "PartnerName": "P A"
+    }
+  ],
+  "ReferalList": ""
+}

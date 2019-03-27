@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <style>
+    .display-inline {
+      display: inline !important;
+    }
+
+    .row-gradient {
+      background-image: linear-gradient(90deg, #464646 40%, #A35B2C);
+    }
+
+    .member-img {
+      height: 180px;
+      margin: 22px 0 0 30px;
+    }
+
+    .color-white {
+      color: #fff;
+    }
+
+.margin-top-10{
+margin-top: 10px;
+} 
+    .border-right {
+      margin-top: 15px;
+      border-right: solid 1px #fff;
+      height: 225px;
+    }
+
+    .icon-color-change:before,
+    .color-pink {
+      color: #C96F6F;
+    }
+
+    .navbar-inverse .navbar-nav>.active>a,
+    .navbar-inverse .navbar-nav>.active>a:focus,
+    .navbar-inverse .navbar-nav>.active>a:hover {
+      color: #F88F24 !important;
+    }
+
+    @media (min-width: 768px) {
+      .navbar {
+        border-radius: 0 !important;
+        height: 70px;
+        margin-bottom: 0;
+      }
+
+      .navbar-nav>li>a {
+        padding: 24px 25px;
+      }
+
+      .navbar>.container-fluid .navbar-brand {
+        margin-left: -15px;
+        padding: 0;
+        margin-left: 20px;
+      }
+
+      .logo-text {
+        font-size: 14px;
+        width: 100px;
+        display: -webkit-inline-box;
+        padding: 5px 0;
+      }
+
+      .bg-gry {
+        background-color: #F5F3F1;
+      }
+
+      .box-shadow-right {
+        box-shadow: 10px 0 5px #efefef;
+        margin-top: 1px;
+      }
+
+      .margin-0 {
+        margin: 0 !important;
+      }
+      .pg-bg-color{
+        background-color: #FCD69E;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" class="display-inline" height="70px" width="70px"
+            alt=""> </a>
+        <span class="color-white logo-text">Maratha
+          Enterprise Association</span>
+      </div>
+      <ul class="nav navbar-nav pull-right">
+        <li class="active"><a href="#"><i class="fas fa-home"></i> Home</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><i
+              class="fas fa-address-card"></i>
+            Master<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fas fa-user"></i>
+            Member<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">&reg; Register<span
+              class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fas fa-cog"></i>
+            Setting<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+          </ul>
+        </li>
+        <li><a href="#"><i class="fas fa-lock"></i> Logout</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container-fluid pg-bg-color">
+    <p></p>
+    <div class="container">
+      <div class="row row-gradient color-white">
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 border-right">
+          <div class="refer-data text-center">
+            <h3><img src="images/member_refer.png" alt="">Referred To </h3>
+            <hr>
+            <div><i class="fas fa-user"></i> &#160; <span id="refer"></span></div>
+          </div>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8">
+          <div class="media">
+            <div class="media-left">
+              <img src="images/member_profile_default.png" class="member-img img-circle" alt="Default profile">
+            </div>
+            <div class="media-body text-center">
+              <div class="members-data">
+                <p id="m_id" class="hidden"></p>
+                <h1 id="m_name"></h1>
+                <p><i class="fas fa-user"></i> <span id="m_type"></span></p>
+                <p><i class="far fa-address-card"></i> <span id="m_address"></span></p>
+                <p><span class="glyphicon glyphicon-earphone"></span> <span id="m_mob"></span> </p>
+                <p><i class="fas fa-envelope"></i> <span id="m_email"></span></p>
+                <hr>
+                <p id="m_refer_by_id" class="hidden"></p>
+                <p>&reg; ReferredBy - <span id="m_refer_by_name"></span></p>
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row bg-gry">
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 box-shadow-right">
+          <br>
+          <h5>Products</h5>
+          <hr class="margin-0">
+          <br>
+          <p>Change Ides</p>
+          <p>Product as per demand</p>
+          <p>New pro</p>
+          <p>Project</p>
+          <p>Demo Project</p>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8">
+          <div class="org-data text-center">
+            <div id="o_id" class="hidden"></div>
+            <h1 id="o_name"></h1>
+            <p>
+              <span class="glyphicon glyphicon-earphone icon-color-change"></span></i> <span
+                id="o_phone"></span> &#160;&#160;
+              <i class="fas fa-envelope icon-color-change"></i> <span id="o_email"></span> &#160;&#160;
+              <span class="glyphicon glyphicon-globe icon-color-change"></span> <span
+                id="o_website"></span>
+            </p>
+            <p><i class="far fa-address-card icon-color-change"></i> <span id="o_address"></span></p>
+            <p><i class="fas fa-user icon-color-change"></i> <span class="color-pink">Owner :</span> <span
+                id="o_m_name"></span></p>
+          </div>
+
+          <div class="OrgPartners-data">
+            <p> &#160; &#160; &#160; &#160;&#160; &#160; &#160; &#160;
+              <i class="fas fa-users icon-color-change"></i> Partners :
+              <i class="fas fa-user icon-color-change"></i> <span id="partner_name"></span>
+            </p>
+            <hr>
+          </div>
+<br><br><br><br><br>
+        </div>
+      </div>
+
+    </div>
+
+    <script>
+      $(document).ready(function ($) {
+        $.getJSON("json/JSONFile.json", function (json) {
+          console.log(json); // this will show the info it in console
+
+          $("#refer").append(json.ReferalList ? json.ReferalList : " - ");
+
+          $.each(json.Member, function (index, member) {
+            $("#m_id").append(member.Id);
+            $("#m_name").append(member.Name);
+            $("#m_type").append(member.MemberShipType);
+            $("#m_address").append(member.MemberAddress);
+            $("#m_mob").append(member.MobileNo1);
+            $("#m_email").append(member.EmailId);
+            $("#m_refer_by_id").append(member.ReferedBy);
+            $("#m_refer_by_name").append(member.ReferedByName);
+          });
+
+          $.each(json.Org, function (index, org) {
+            if (org.MemberId == $("#m_id").text() && org.OrganizationId == 392) {
+              $("#o_id").append(org.OrganizationId);
+              $("#o_name").append(org.OrganizationName);
+              $("#o_phone").append(org.PhoneNo);
+              $("#o_email").append(org.EmailId);
+              $("#o_website").append(org.Website);
+              $("#o_address").append(org.OrganizationAddress);
+              $("#o_m_name").append(org.MemberName);
+            }
+          });
+
+          $.each(json.OrgPartners, function (index, OrgPartners) {
+            if (OrgPartners.OrganizationId == $("#o_id").text() && OrgPartners.PartnerId == $(
+                "#m_refer_by_id").text())
+              $("#partner_name").append(OrgPartners.PartnerName);
+          });
+        });
+      });
+    </script>
+</body>
+
+</html>
