@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Bootstrap Example</title>
+  <title>Json Task</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -11,85 +11,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-  <style>
-    .display-inline {
-      display: inline !important;
-    }
-
-    .row-gradient {
-      background-image: linear-gradient(90deg, #464646 40%, #A35B2C);
-    }
-
-    .member-img {
-      height: 180px;
-      margin: 22px 0 0 30px;
-    }
-
-    .color-white {
-      color: #fff;
-    }
-
-.margin-top-10{
-margin-top: 10px;
-} 
-    .border-right {
-      margin-top: 15px;
-      border-right: solid 1px #fff;
-      height: 225px;
-    }
-
-    .icon-color-change:before,
-    .color-pink {
-      color: #C96F6F;
-    }
-
-    .navbar-inverse .navbar-nav>.active>a,
-    .navbar-inverse .navbar-nav>.active>a:focus,
-    .navbar-inverse .navbar-nav>.active>a:hover {
-      color: #F88F24 !important;
-    }
-
-    @media (min-width: 768px) {
-      .navbar {
-        border-radius: 0 !important;
-        height: 70px;
-        margin-bottom: 0;
-      }
-
-      .navbar-nav>li>a {
-        padding: 24px 25px;
-      }
-
-      .navbar>.container-fluid .navbar-brand {
-        margin-left: -15px;
-        padding: 0;
-        margin-left: 20px;
-      }
-
-      .logo-text {
-        font-size: 14px;
-        width: 100px;
-        display: -webkit-inline-box;
-        padding: 5px 0;
-      }
-
-      .bg-gry {
-        background-color: #F5F3F1;
-      }
-
-      .box-shadow-right {
-        box-shadow: 10px 0 5px #efefef;
-        margin-top: 1px;
-      }
-
-      .margin-0 {
-        margin: 0 !important;
-      }
-      .pg-bg-color{
-        background-color: #FCD69E;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="css/render_json.css">
 </head>
 
 <body>
@@ -169,25 +91,24 @@ margin-top: 10px;
       <div class="row bg-gry">
         <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 box-shadow-right">
           <br>
-          <h5>Products</h5>
+          <h5> <span class="p-logo">P</span> Products</h5>
           <hr class="margin-0">
           <br>
-          <p>Change Ides</p>
-          <p>Product as per demand</p>
-          <p>New pro</p>
-          <p>Project</p>
-          <p>Demo Project</p>
+          <p><span class="p-logo">P</span> Change Ides</p>
+          <p><span class="p-logo">P</span> Product as per demand</p>
+          <p><span class="p-logo">P</span> New pro</p>
+          <p><span class="p-logo">P</span> Project</p>
+          <p><span class="p-logo">P</span> Demo Project</p>
         </div>
         <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8">
           <div class="org-data text-center">
             <div id="o_id" class="hidden"></div>
             <h1 id="o_name"></h1>
             <p>
-              <span class="glyphicon glyphicon-earphone icon-color-change"></span></i> <span
-                id="o_phone"></span> &#160;&#160;
+              <span class="glyphicon glyphicon-earphone icon-color-change"></span></i> <span id="o_phone"></span>
+              &#160;&#160;
               <i class="fas fa-envelope icon-color-change"></i> <span id="o_email"></span> &#160;&#160;
-              <span class="glyphicon glyphicon-globe icon-color-change"></span> <span
-                id="o_website"></span>
+              <span class="glyphicon glyphicon-globe icon-color-change"></span> <span id="o_website"></span>
             </p>
             <p><i class="far fa-address-card icon-color-change"></i> <span id="o_address"></span></p>
             <p><i class="fas fa-user icon-color-change"></i> <span class="color-pink">Owner :</span> <span
@@ -201,50 +122,13 @@ margin-top: 10px;
             </p>
             <hr>
           </div>
-<br><br><br><br><br>
+          <br><br><br><br><br>
         </div>
       </div>
 
     </div>
 
-    <script>
-      $(document).ready(function ($) {
-        $.getJSON("json/JSONFile.json", function (json) {
-          console.log(json); // this will show the info it in console
-
-          $("#refer").append(json.ReferalList ? json.ReferalList : " - ");
-
-          $.each(json.Member, function (index, member) {
-            $("#m_id").append(member.Id);
-            $("#m_name").append(member.Name);
-            $("#m_type").append(member.MemberShipType);
-            $("#m_address").append(member.MemberAddress);
-            $("#m_mob").append(member.MobileNo1);
-            $("#m_email").append(member.EmailId);
-            $("#m_refer_by_id").append(member.ReferedBy);
-            $("#m_refer_by_name").append(member.ReferedByName);
-          });
-
-          $.each(json.Org, function (index, org) {
-            if (org.MemberId == $("#m_id").text() && org.OrganizationId == 392) {
-              $("#o_id").append(org.OrganizationId);
-              $("#o_name").append(org.OrganizationName);
-              $("#o_phone").append(org.PhoneNo);
-              $("#o_email").append(org.EmailId);
-              $("#o_website").append(org.Website);
-              $("#o_address").append(org.OrganizationAddress);
-              $("#o_m_name").append(org.MemberName);
-            }
-          });
-
-          $.each(json.OrgPartners, function (index, OrgPartners) {
-            if (OrgPartners.OrganizationId == $("#o_id").text() && OrgPartners.PartnerId == $(
-                "#m_refer_by_id").text())
-              $("#partner_name").append(OrgPartners.PartnerName);
-          });
-        });
-      });
-    </script>
+   <script src="js/render_json.js"></script>
 </body>
 
 </html>
